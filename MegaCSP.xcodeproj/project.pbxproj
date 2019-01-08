@@ -7,19 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0F6DBA21E528F60045F687 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F6DB921E528F60045F687 /* DrawingView.swift */; };
+		7A0F6DBC21E529000045F687 /* DrawingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F6DBB21E529000045F687 /* DrawingCell.swift */; };
 		7A316BDE21DFF79500B461E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A316BDD21DFF79500B461E7 /* AppDelegate.swift */; };
-		7A316BE021DFF79500B461E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A316BDF21DFF79500B461E7 /* ViewController.swift */; };
 		7A316BE321DFF79500B461E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A316BE121DFF79500B461E7 /* Main.storyboard */; };
 		7A316BE521DFF7AA00B461E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A316BE421DFF7AA00B461E7 /* Assets.xcassets */; };
+		7A316BFA21DFF90700B461E7 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A316BF921DFF90700B461E7 /* AbstractionViewController.swift */; };
+		7A316BFC21DFF95700B461E7 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A316BFB21DFF95700B461E7 /* DrawingViewController.swift */; };
+		7A316BFE21DFF97800B461E7 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A316BFD21DFF97800B461E7 /* DataViewController.swift */; };
+		7A316C0221DFF9C000B461E7 /* DrawingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A316C0121DFF9C000B461E7 /* DrawingCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A0F6DB921E528F60045F687 /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawingView.swift; path = ../../../DrawingProject/DrawingProject/View/DrawingView.swift; sourceTree = "<group>"; };
+		7A0F6DBB21E529000045F687 /* DrawingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawingCell.swift; path = ../../../DrawingProject/DrawingProject/View/DrawingCell.swift; sourceTree = "<group>"; };
 		7A316BDA21DFF79500B461E7 /* MegaCSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaCSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A316BDD21DFF79500B461E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A316BDF21DFF79500B461E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A316BE221DFF79500B461E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A316BE421DFF7AA00B461E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A316BE921DFF7AA00B461E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A316BF821DFF8EA00B461E7 /* AlgorithimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithimViewController.swift; sourceTree = "<group>"; };
+		7A316BF921DFF90700B461E7 /* AbstractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbstractionViewController.swift; path = ../../../../AbstractProject/AbstractProject/Controller/AbstractionViewController.swift; sourceTree = "<group>"; };
+		7A316BFB21DFF95700B461E7 /* DrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawingViewController.swift; path = ../../../../DrawingProject/DrawingProject/Controller/DrawingViewController.swift; sourceTree = "<group>"; };
+		7A316BFD21DFF97800B461E7 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataViewController.swift; path = ../../../../ListProject/ListProject/Controller/DataViewController.swift; sourceTree = "<group>"; };
+		7A316C0121DFF9C000B461E7 /* DrawingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +87,6 @@
 				7A316BF421DFF82E00B461E7 /* Abstraction */,
 				7A316BF321DFF82500B461E7 /* Creativity */,
 				7A316BF221DFF81C00B461E7 /* Data */,
-				7A316BDF21DFF79500B461E7 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -84,6 +94,8 @@
 		7A316BF121DFF81000B461E7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7A0F6DBB21E529000045F687 /* DrawingCell.swift */,
+				7A0F6DB921E528F60045F687 /* DrawingView.swift */,
 				7A316BE121DFF79500B461E7 /* Main.storyboard */,
 			);
 			path = View;
@@ -92,6 +104,7 @@
 		7A316BF221DFF81C00B461E7 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				7A316BFD21DFF97800B461E7 /* DataViewController.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -99,6 +112,8 @@
 		7A316BF321DFF82500B461E7 /* Creativity */ = {
 			isa = PBXGroup;
 			children = (
+				7A316C0121DFF9C000B461E7 /* DrawingCollectionViewController.swift */,
+				7A316BFB21DFF95700B461E7 /* DrawingViewController.swift */,
 			);
 			path = Creativity;
 			sourceTree = "<group>";
@@ -106,6 +121,7 @@
 		7A316BF421DFF82E00B461E7 /* Abstraction */ = {
 			isa = PBXGroup;
 			children = (
+				7A316BF921DFF90700B461E7 /* AbstractionViewController.swift */,
 			);
 			path = Abstraction;
 			sourceTree = "<group>";
@@ -113,6 +129,7 @@
 		7A316BF521DFF83900B461E7 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				7A316BF821DFF8EA00B461E7 /* AlgorithimViewController.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -187,8 +204,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A316BE021DFF79500B461E7 /* ViewController.swift in Sources */,
 				7A316BDE21DFF79500B461E7 /* AppDelegate.swift in Sources */,
+				7A316BFC21DFF95700B461E7 /* DrawingViewController.swift in Sources */,
+				7A316BFE21DFF97800B461E7 /* DataViewController.swift in Sources */,
+				7A0F6DBA21E528F60045F687 /* DrawingView.swift in Sources */,
+				7A316BFA21DFF90700B461E7 /* AbstractionViewController.swift in Sources */,
+				7A316C0221DFF9C000B461E7 /* DrawingCollectionViewController.swift in Sources */,
+				7A0F6DBC21E529000045F687 /* DrawingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MegaCSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MegaCSP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,7 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MegaCSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MegaCSP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
